@@ -108,4 +108,8 @@ def main():
     else :
         print("wrong input!")
         exit()
+<<<<<<< HEAD
 main()
+=======
+main()
+>>>>>>> f6afb6ff4f2a88b211b8024f30508897dce6db50
