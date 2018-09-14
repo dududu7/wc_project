@@ -56,6 +56,7 @@ def count_cl(file):
     Zhu = 0
     for i in range(1, int(num_zhu / 2) + 1):
         Zhu += place[2 * i - 1] - place[2 * i - 2] - 1
+    Code = Code - Zhu
     return P, Empth_L, Code, Zhu
 
 #    输出
